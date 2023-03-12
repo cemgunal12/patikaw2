@@ -36,5 +36,5 @@ public class kullanicigirisi {
             System.out.println("Kullanıcı adı yanlış");
     }
     }
-}
+} 
  
