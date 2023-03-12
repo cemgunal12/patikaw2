@@ -17,9 +17,9 @@ public class kullanicigirisi {
             if(password.equals("java123")){
                 System.out.println("Başarı ile giriş yaptınız");
             }else{
-                System.out.println("Şifreniz yanlış şifrenizi sıfırlamak istermisiniz\n Evet\nHayır");
+                System.out.println("Şifreniz yanlış şifrenizi sıfırlamak istermisiniz\nEvet\nHayır");
                 String cevap=input.nextLine();
-                if(cevap=="Evet"){
+                if(cevap.equals("evet")){
                     System.out.println("Yeni şifrenizi giriniz");
                     String yeniSifre=input.nextLine();
                     if(yeniSifre.equals("java123")){
@@ -28,13 +28,12 @@ public class kullanicigirisi {
                     else{
                         System.out.println("Şifre oluşturuldu");
                     }
-                }else{
-                    System.out.println("O zaman hatırla şifreni kardeş");
+                }
                 }
             }
-        }
+        
         else{
             System.out.println("Kullanıcı adı yanlış");
-        }
     }
-} 
+    }
+}
